@@ -1,0 +1,55 @@
+.namespace-node {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    left: 100px;
+    width: 600px;
+    height: 300px;
+}
+
+.keyword-namespace {
+    user-select: none;
+    color: rgb(76, 11, 197);
+}
+
+.namespace-name {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    width: auto;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: rgb(247, 0, 255);
+    background-color: #eee;
+}
+
+.namespace-node-header {
+    height: 30px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cen {
+    height: 20.4px;
+}
+
+.code {
+    background: white;
+}
+
+.code-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.line-num {
+    width: 100px;
+}
+
+.line-content {
+    width: 300px;
+}
